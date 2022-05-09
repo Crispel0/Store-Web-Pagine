@@ -1,3 +1,3 @@
 # Store-Web-Pagine
 
-.Pagina de prueba pagina web de una tienda online
+.Pagina de prueba de una tienda online con diseño responsivo. utilizando GRID
