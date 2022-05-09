@@ -1,0 +1,30 @@
+.app {
+    background: #f1f1f1;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "contenido"
+    "footer";
+
+    grid-template-columns: auto; /* Los templates del column son auto*/
+    grid-template-rows: 50px 100vh auto; /* El tño del encabezado es 50px/ contenido y rodapie auto/ */ /*El vh toma la proporcion segun la pantalla*/
+    
+}
+
+.header{
+    grid-area: header;
+    align-items:center; /* Center all Items about the items*/
+    display:flex;
+    padding: 0 2rem;
+}
+.menu__link{
+color: #333333;
+padding: .5rem 1rem;
+
+}
+.menu__link:hover .menu__link :active{
+    border-bottom: 2px solid #0073e6;
+}
+.contenido {
+    grid-area: contenido;
+}
